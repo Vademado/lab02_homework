@@ -12,6 +12,6 @@ int main() {
 
     // Print  message with the user's name
     std::cout << "Hello world from " + name << std::endl;
-
-    return 0;
+    
+  return 0;
 }
