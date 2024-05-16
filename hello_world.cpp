@@ -1,14 +1,17 @@
-#include<iostream>
+#include <iostream>
 
-using namespace std;
+int main() {
+    // Declare a variable to store the user's name
+    std::string name;
 
-int main()
-{
-    string name;
+    // Prompt the user to input their name
+    std::cout << "Input name: ";
 
-    cout << "Input name: ";
-    cin >> name;
+    // Read the user's name from the standard input
+    std::cin >> name;
 
-    cout << "Hello world from " + name << endl;
+    // Print a greeting message with the user's name
+    std::cout << "Hello world from " + name << std::endl;
 
+    return 0;
 }
